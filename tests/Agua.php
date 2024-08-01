@@ -5,7 +5,7 @@ class Agua{
         
             if ($temperatura <=0) return 'Sólido';
             if (0 < $temperatura && $temperatura <100) return 'Líquido';
-            if (100 <= $temperatura ) return 'Gaseoso';
+            if (100 <= $temperatura ) return 'Gaseoso es acá';
 
     } else {
         return NULL;
